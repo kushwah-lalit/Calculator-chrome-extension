@@ -1,0 +1,70 @@
+body{
+    background:#0e1013;
+}
+#CALBODY{
+    margin:auto;
+/*    margin-top:5rem;*/
+    width:90%;
+    max-width:600px;
+    min-width:300px;
+    height:auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:space-around;
+    background-color:#21262c;
+    border:10px solid white;
+    flex-wrap:wrap;
+    flex-wrap-direction:column;
+
+}
+#heading{
+    width:100%;
+    padding:1rem;
+    text-align:center;
+    font-size:2rem;
+    font-family:sans-serif;
+    background-image:linear-gradient(225deg,rgba(238,28,36,1),rgba(33,38,44,0.8)) ;
+    border-bottom:1px solid white;
+    color:darkgrey;
+    
+}
+#input{
+    margin:none;
+    height:70px;
+    padding:5px 10px;
+    background-color:Transparent;
+    border:none;
+    color: #686868;
+    display: block;
+    line-height: 1.6;
+    font-size: 2.5rem;
+    font-family:sans-serif;
+    font-weight:400;
+    color:lightgrey;
+    display:block;
+    text-align:right;
+    width:100%;
+    border-bottom:1px solid white;
+    box-shadow:0 0 6px white inset;
+    overflow:auto;
+}
+.btn{
+    width:25%;
+    padding:5px;
+    box-sizing:border-box;
+}
+.btn:hover button{
+     background-image:linear-gradient(225deg,rgba(238,28,36,1),rgba(33,38,44,0.8)) ;
+}
+button{
+    background-color:transparent;
+    font-size: 0.9rem;
+    box-shadow:0 0 3px white;
+    color: #fff;
+    font-size: 1.8rem;
+    font-family:sans-serif;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    padding: 12px 18px;
+    width:100%;
+}

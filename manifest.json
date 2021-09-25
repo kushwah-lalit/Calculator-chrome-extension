@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Calculator",
+  "description": "Calculator to perform the normal calculation",
+  "version": "1.0.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
